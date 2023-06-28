@@ -12,14 +12,9 @@ using namespace std;
 //-------------INTRO BEFORE GAME START --------------------//
 void  intro()
 {
-	 cout << "\n\n *";
-    for(int a=1;a<20;a++) // Change 'a<?' to how many * you want
-	{
-
-	}
-   
-	cout<<" "<<endl;
-	cout<<"|       YOU HAVE BEEN APPOINTED TO BECOME ONE OF THE CHALLANGER TO WIN $1,000,000              |"<<endl;
+	
+    cout<<"*********************************************************************************************** "<<endl;
+    cout<<"|       YOU HAVE BEEN APPOINTED TO BECOME ONE OF THE CHALLANGER TO WIN $1,000,000              |"<<endl;
     cout<<"|  TO WIN THIS GRAND PRIZE,YOU NEED TO ESCAPE FROM ALL OF THE ROOM IN THIS BUILDING            |"<<endl;
     cout<<"|EACH ROOM HAS ITS OWN ~INTERESTING GAME~.COMPLETE THE GAME TO ESCAPE FROM THAT PARTICULAR ROOM|"<<endl
         <<"|ALL OF MONEY WILL BE YOURS IF YOU ESCAPE ! HOWEVER YOU WILL LOSE YOUR LIFE IF YOU DONT ESCAPE!|"<<endl<<endl<<endl
