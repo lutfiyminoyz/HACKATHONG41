@@ -36,33 +36,13 @@ int main()
 //---------move to the linkedlist@start game ----------//
         if (c == 1) 
         {
-//        	system("CLS");
-//      	       cout << "\n\n *";
-//    	for(int a=1;a<20;a++) 
-//		{
-//			Sleep(200);
-//			cout << "*";
-//		}
-//		system("CLS");
-        	
-            gameList.accessNode();
-            
-      
-        
-		}
+          gameList.accessNode();
+            }
 		
 		//--------reboot the game to start from first -------//
         else if (c == 2)
         {
-//        	system("CLS");
-//        	cout<< "\n\n *";
-//    	for(int a=1;a<20;a++) // Change 'a<?' to how many * you want
-//		{
-//			Sleep(200);
-//			cout << "*";
-//		}
-//		system("CLS");
-//        	
+        	
             gameList.restartNode();
             
         }
@@ -70,19 +50,7 @@ int main()
         //----------CONTINUE THE GAME RELOADED----------//
         else if (c == 3)
         {
-//        	system("CLS");
-//        	
-//    	    cout << "\n\n *";
-//   		 for(int a=1;a<20;a++) // Change 'a<?' to how many * you want
-//		{
-//			Sleep(200);
-//			cout << "*";
-//		}
-//		system("CLS");
-//   		// cin.sync(); cin.ignore(); //buat loading screen
-        
-			
-    //--------------- LOAD CURRENT GAME FROM FILE---------------//
+            //--------------- LOAD CURRENT GAME FROM FILE---------------//
             string line;
             int loadedGameNum;
             ifstream myfile("Load.txt");
