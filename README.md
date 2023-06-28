@@ -33,6 +33,32 @@ The DisplayGame function is used to display the game based on the gameNum value.
 6. Method Invocation: In the main() function, methods of different classes are invoked to perform various operations. For example, gameList.appendNode(game1) adds a new node with game1 object to the linked list. gameList.accessNode() accesses the data of the current node, and gameList.restartNode() resets the data of the current node.
 7. File Handling: The code also demonstrates the usage of file handling to load a game from a file. The ifstream class is used to read from a file, and the ofstream class can be used to write to a file. The loaded game data is then used to create a new Game object, which is inserted into the linked list using gameList.LoadNode(loadedGame).
 
+# How linked lists/stacks/queues play a role in your game:
+- Adding a game(level of the game): The appendNode() function in the LinkedList class likely takes a Game object as a parameter and adds it to the linked list. It create a new node and set the value of the node to the Game object. This way, the linked list acts as a container for the Game objects.All levels of the game appended first before the user be able to play it well.Each level are fix at it state which mean there is no random level selected each time the user play it.Each level are connected to each other  for instance level 1 is connected to level 2.Level 1 will point to the level 2 which mean the user be able to proceed to the level 2 after winning the first level.Same goes the other level,the level are connected in sequence.
+ 
+- Accessing games: The accessNode() function in the LinkedList class is responsible for accessing the nodes in the linked list.Whenever programme is starting,the toward pointer will always point at the first node that have been added.Then it will move to the next node and can be accessed if player choose to go to the next room(level).Every time the user go to the level 1,game 1 will be run and the toward pointer will automatically pointer to the next level to proceed the after winning the first level.
+ 
+- Loading the game:The LoadNode () function is to trace the value that have been loaded from the saved txt file.The toward pointer will keep traverse until the toward->value match the value of game number(room number)in the class game.Then it will display the game based on the number in the node that toward pointer point to.The game automatically save after the user play the first level.Whenever the user quit at certain level for instance level 3,the save file will store the value of the level (3) in file,when the user load the game,value of the level will read from the file and run the level 3.
+Restart the game: The restartNode() function in the linkedlist class is to make the toward pointer point back to the first node.So that if player choose to restart the game the first game(room 1) will appear.toward pointer will be equal to head pointer which mean it will point to the first node.First node store the first level of our game.
+ 
+- Overall,the linkedlist play a role to allow player move from one room to the next room and also to access the last room that have been saved.It also allow player to restart the game where it will go back to the first room.
+
+# SCREENSHOTS OF GAME
+![image](https://github.com/lutfiyminoyz/HACKATHONG41/assets/121544132/c75780ca-b80a-4724-90f6-63ea89b42815)
+![image](https://github.com/lutfiyminoyz/HACKATHONG41/assets/121544132/e3b07f4e-65f9-4ed9-b5af-4cc51cecad8f)
+![image](https://github.com/lutfiyminoyz/HACKATHONG41/assets/121544132/adb1832e-9843-4b9e-98a1-1557cd50847e)
+![image](https://github.com/lutfiyminoyz/HACKATHONG41/assets/121544132/aa33dd5a-3648-4473-b785-e0f2c89aa47b)
+![image](https://github.com/lutfiyminoyz/HACKATHONG41/assets/121544132/e934ba64-039e-4fc4-b464-8d5a5d10947f)
+
+![image](https://github.com/lutfiyminoyz/HACKATHONG41/assets/121544132/5e5dfdf8-2fc4-497e-a270-3567ca8e1bfe)
+![image](https://github.com/lutfiyminoyz/HACKATHONG41/assets/121544132/3fda9515-8c1e-42f6-9e35-c84c669e685b)
+
+![image](https://github.com/lutfiyminoyz/HACKATHONG41/assets/121544132/ee09cd63-e50b-458c-97c5-7e68c2cb9a90)
+<img width="927" alt="image" src="https://github.com/lutfiyminoyz/HACKATHONG41/assets/121544132/e8b3944a-027f-4149-a083-8bf2197a288c">
+
+
+![image](https://github.com/lutfiyminoyz/HACKATHONG41/assets/121544132/4f55ed96-1346-48fe-9e4c-6940b11f933c)
+
 
 
 
