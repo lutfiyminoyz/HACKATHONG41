@@ -17,7 +17,7 @@ We have developed a game named ESCAPE ROOM.It is a game where player need to esc
 # Features of Game
 For this game,there are some features we provided such as:
 1. Start the game-At the beginning of the game,player can press no 1 to start new game which means start from room number 1.
-2. Load Game-players can choose to load the game which means player can go straight to the last room(level) they were at.
+2. Load Game-players can choose to load the game which means player can play game in the last room before player quit the game.
 3. Restart the Game-player can choose to restart again the game if they win or lose the game.
 4. Load Previous Game-player can restart the current room(level).Whether they win or not.
 5. Quit-if player choose to quit the game,the current room(level) will automatically saved.And if player play the game back he/she can choose the load game to go straight to the last room(level) they have quitted.
