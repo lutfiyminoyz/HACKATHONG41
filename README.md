@@ -71,10 +71,6 @@ Restart the game: The restartNode() function in the linkedlist class is to make 
 ![image](https://github.com/lutfiyminoyz/HACKATHONG41/assets/121542658/540aff4b-1935-4871-ab11-142537408e55)
 
 
-<img width="927" alt="image" src="https://github.com/lutfiyminoyz/HACKATHONG41/assets/121544132/e8b3944a-027f-4149-a083-8bf2197a288c">
-
-
-![image](https://github.com/lutfiyminoyz/HACKATHONG41/assets/121544132/4f55ed96-1346-48fe-9e4c-6940b11f933c)
 
 
 # LINK FOR DEMO VIDEO
